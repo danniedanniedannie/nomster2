@@ -79,3 +79,5 @@ gem 'devise'
 gem "geocoder"
 
 gem "figaro"
+
+gem 'jquery-rails'
