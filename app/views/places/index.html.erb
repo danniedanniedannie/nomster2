@@ -55,11 +55,21 @@
     </blockquote>
   </div>
 <% end %>
-</div>
 
 
+    <% if place.photos.present? %>
+        <div class="middle">
+            <%= image_tag place.photos.last.picture.url, :size => "300x200" %>
+            <br />
+         <caption> <%= place.photos.last.caption %></caption>
+          </div>
+    <% end %>
+  </div>
 <% end %>
 </div>
+</div>
+
+
 
 <%= will_paginate @places %>
 

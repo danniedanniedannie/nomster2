@@ -81,3 +81,7 @@ gem "geocoder"
 gem "figaro"
 
 gem 'jquery-rails'
+
+gem 'carrierwave', '~> 1.0'
+
+gem "fog-aws"
