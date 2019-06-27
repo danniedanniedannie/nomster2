@@ -85,3 +85,5 @@ gem 'jquery-rails'
 gem 'carrierwave', '~> 1.0'
 
 gem "fog-aws"
+
+gem "font-awesome-rails"
