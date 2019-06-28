@@ -1,7 +1,7 @@
 class Place < ApplicationRecord
 	 belongs_to :user
-	 has_many :comments, through: :comments, dependent: :destroy
-	 has_many :photos, through: :photos, dependent: :destroy
+	 has_many :comments
+	 has_many :photos
 
   
   geocoded_by :address
